@@ -1,2 +1,2 @@
-# Thorium-Evolution
+# Thorium Evolution
 Mindustry mod
