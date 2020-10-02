@@ -1,0 +1,21 @@
+type: UnitFactory
+description: Produce Echo units.
+health: 600
+size: 4
+produceTime: 60
+launchVelocity:10
+maxSpawn: 5
+unitType: urek-mazino
+category: units
+consumes:{
+	power: 4
+}
+requirements:[
+	radium/200
+	silicon/100
+	thorium/150
+	lead/150
+	titanium/80
+	graphite/150
+]
+buildVisibility: hidden

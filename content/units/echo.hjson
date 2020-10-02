@@ -1,0 +1,38 @@
+type: HoverUnit
+health: 800
+hitsize: 15
+#hitsizeTile: 4
+speed: 0.55
+range: 0
+attackLength: 110
+rotatespeed: 0.03
+baseRotateSpeed: 0.09
+shootCone: 30
+mass: 10
+flying: true
+targetAir: true
+rotateWeapon: false
+drag: 0.01
+maxVelocity: 1.6
+retreatPercent: 0.6
+#itemCapacity: 30
+#buildPower: 0.3
+#minePower: 0.7
+weaponOffsetY: -7
+engineOffset: 10
+engineSize: 5.5
+weapon:{
+  reload:30
+  length: -6
+  name: echo-gun-5.0
+  width: 11
+  bullet:{
+    damage:38
+    lifetime: 30
+    speed:6
+    frontColor: 3e6ddd
+    backColor: 443aca
+    bulletHeight: 10
+    bulletWidth: 8
+  }
+}

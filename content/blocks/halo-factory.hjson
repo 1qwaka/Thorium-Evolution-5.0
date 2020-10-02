@@ -1,0 +1,29 @@
+type: UnitFactory
+name: Halo factory
+description: Produce Halo units.
+health: 1440
+size: 6
+produceTime: 1080
+launchVelocity:10
+maxSpawn: 5
+unitType: halo
+category: units
+consumes:{
+	power: 4
+	items:{
+		items:[
+			radium/30
+			thorium/25
+			silicon/30
+		]
+	}
+}
+requirements:[
+	radium/200
+	silicon/100
+	thorium/150
+	lead/150
+	titanium/80
+	graphite/150
+]
+research: nox-alpha-factory

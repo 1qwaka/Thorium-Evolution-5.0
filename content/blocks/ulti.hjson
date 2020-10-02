@@ -1,0 +1,14 @@
+type: PowerTurret
+range:1000
+category: turret
+requirements:[
+copper/1
+]
+reload:10
+shootType:{
+damage:500
+lifetime:200
+speed: 15
+}
+research: spectre
+buildVisibility: hidden

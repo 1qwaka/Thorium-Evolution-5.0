@@ -1,0 +1,13 @@
+size:4
+requirements: [
+  radium/200
+  phase-fabric/100
+  silicon/150
+  graphite/100
+  titanium/200
+]
+consumes:{
+  power:8
+}
+category: upgrade
+research: storm-pad

@@ -1,0 +1,23 @@
+type: HoverUnit
+health: 2000
+hitsize: 15
+#hitsizeTile: 4
+speed: 0.8
+range: 0
+attackLength: 150
+#rotatespeed: 0.2
+#baseRotateSpeed: 0.1
+shootCone: 30
+mass: 15
+flying: true
+targetAir: true
+rotateWeapon: false
+drag: 0.1
+maxVelocity: 2.3
+retreatPercent: 0.6
+#itemCapacity: 30
+#buildPower: 0.3
+#minePower: 0.7
+#weaponOffsetY: 
+engineOffset: 13
+engineSize: 7

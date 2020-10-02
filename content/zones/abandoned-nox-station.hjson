@@ -1,0 +1,30 @@
+name: Abandoned NOX station
+description: NOX
+loadout:basicShard
+startingItems:[
+  lead/100
+  copper/100
+  metaglass/30
+  silicon/35
+]
+requirements:[
+  {
+    type: ZoneWave
+    zone: desolateRift
+    wave: 30
+  },
+  {
+    type: Unlock
+    block: radium-fabric
+  }
+]
+conditionWave: 10
+launchPeriod: 10
+resources: [
+  copper
+  lead
+  coal
+  titanium
+  thorium
+  scrap
+]

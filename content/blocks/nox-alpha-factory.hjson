@@ -1,0 +1,29 @@
+type: UnitFactory
+name: Nox-alpha factory
+description: Produce Nox-alpha units.
+health: 960
+size: 5
+produceTime: 1080
+launchVelocity:10
+maxSpawn: 4
+unitType: nox-alpha
+category: units
+consumes:{
+	power: 4
+	items:{
+		items:[
+			radium/20
+			thorium/30
+			silicon/30
+		]
+	}
+}
+requirements:[
+	radium/80
+	silicon/80
+	thorium/150
+	lead/150
+	titanium/80
+	graphite/100
+]
+research: revenant-factory

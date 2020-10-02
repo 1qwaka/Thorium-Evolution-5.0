@@ -1,0 +1,29 @@
+type: UnitFactory
+name: Echo factory
+description: Produce Echo units.
+health: 600
+size: 4
+produceTime: 60
+launchVelocity:10
+maxSpawn: 5
+unitType: echo
+category: units
+consumes:{
+	power: 4
+	items:{
+	  items:[
+	    radium/15
+	    silicon/15
+	    titanium/15
+	  ]
+	}
+}
+requirements:[
+	radium/200
+	silicon/100
+	thorium/150
+	lead/150
+	titanium/80
+	graphite/150
+]
+research: nox-alpha-factory
